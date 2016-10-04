@@ -5,7 +5,7 @@ require 'erb'
 lipsum = ARGV[0].to_s.downcase
 # Number of paragraphes wanted converted to intiger
 #1 for default output
-number_paragraphs =ARGV[1].to_i
+num_para=ARGV[1].to_i
 
 # display inspect variable
 puts ARGV.inspect
@@ -24,7 +24,7 @@ case lipsum
         output=
         "<p> Tilde pug tousled raw denim blog keytar, actually microdosing flannel thundercats retro humblebrag. Beard truffaut celiac readymade whatever skateboard. Hella cliche mlkshk keffiyeh, skateboard forage hexagon dreamcatcher pug migas gentrify swag cred. Pok pok microdosing yuccie edison bulb humblebrag cred. Cray butcher bitters bicycle rights, tofu YOLO subway tile disrupt helvetica pork belly. Portland prism crucifix kitsch meh, activated charcoal schlitz irony trust fund authentic mlkshk cold-pressed fanny pack. Woke live-edge kogi intelligentsia, meditation flannel pitchfork snackwave post-ironic godard salvia pabst keytar artisan.</p>"
     else
-      puts "This program is able to create 3 types of Lorum Ipsum:, classic_ipsum, samuel_ipsum, or hipster_ipsum. Select from one of these types."
+      puts "Were you trying to find a Lorum Ipsum? Try lipsum.rb classic_ipsum or samuel_ipsum or hipster_ipsum."
 end
 
 
